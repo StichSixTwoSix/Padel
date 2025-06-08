@@ -195,6 +195,15 @@ a {
   height: 659px;
   margin-bottom: 125px;
 }
+
+.catalog-h2 {
+  font-family: "Random Grotesque Standard Bold StandardBold";
+  font-weight: normal;
+  font-size: 70px;
+  margin-left: 133px;
+  margin-bottom: 38px;
+}
+
 .cat-cards {
   background: #dadada;
   padding-bottom: 102px;
