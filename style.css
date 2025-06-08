@@ -80,8 +80,7 @@ a {
 .about-block {
   text-align: center;
 }
-.about-img {
-}
+
 .about-h4 {
   font-family: "Random Grotesque Standard Bold StandardBold";
   font-weight: normal;
@@ -102,7 +101,7 @@ a {
 .about-whats {
   font-size: 48px;
   line-height: 50px;
-  font-weight: 900;
+  font-weight: 700;
   padding: 80px 100px;
   border: 7px solid #000000;
   max-width: 1180px;
@@ -119,4 +118,99 @@ a {
   background: #2755ee;
   border: none;
   margin: 93px 0;
+}
+
+.arrow {
+  width: 70px;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+
+.right {
+  transform: scale(-1, 1);
+}
+
+.services {
+  margin-bottom: 185px;
+}
+
+.services-carusel {
+  margin: 0 100px;
+}
+
+.services-h2 {
+  font-family: "Random Grotesque Standard Bold StandardBold";
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 0.8;
+  margin: 106px 103px;
+}
+
+.card-title {
+  font-family: "Random Grotesque Standard Bold StandardBold";
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 0.8;
+  margin-bottom: 86px;
+  text-align: center;
+}
+
+.card-img {
+  width: 806px;
+}
+
+.card-text {
+  font-weight: semibold;
+  font-size: 40px;
+  line-height: 1;
+  margin: 0 60px;
+}
+
+.card-button {
+  padding: 33px 79px;
+  font-size: 48px;
+  border-radius: 20px;
+  background: #2755ee;
+  border: none;
+  color: #ffffff;
+}
+
+.where-h2 {
+  font-family: "Random Grotesque Standard Bold StandardBold";
+  font-weight: normal;
+  font-size: 70px;
+  line-height: 0.8;
+  margin: 26px 101px;
+}
+
+.where-text {
+  margin: 58px 128px;
+  font-family: "Random Grotesque Standard Bold StandardBold";
+  font-weight: normal;
+  font-size: 50px;
+}
+
+.where-img {
+  height: 659px;
+  margin-bottom: 125px;
+}
+.cat-cards {
+  background: #dadada;
+  padding-bottom: 102px;
+}
+.cat-card {
+  background: none;
+}
+
+.cat-card-title {
+  margin: 58px 128px;
+  font-family: "Random Grotesque Standard Bold StandardBold";
+  font-weight: normal;
+  font-size: 48px;
+}
+
+.cat-card-img {
+  width: 440px;
+  height: 440px;
 }

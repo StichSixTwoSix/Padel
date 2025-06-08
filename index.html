@@ -14,12 +14,12 @@
     <div class="top-block">
       <header>
         <div class="row d-flex align-items-center">
-          <div class="col-md-2">
+          <div class="col-2">
             <a href="" class="logo-link">
               <img src="./img/logo.png" class="logo" alt="Логотип" />
             </a>
           </div>
-          <div class="col-md-7">
+          <div class="col-7">
             <nav>
               <ul
                 class="list-group list-group-horizontal justify-content-center"
@@ -31,7 +31,7 @@
               </ul>
             </nav>
           </div>
-          <div class="col-md-3 header-info">
+          <div class="col-3 header-info">
             <div class="header-phone semibold">
               <a href="tel:+79023210063">+7 (902) 321-00-63</a>
             </div>
@@ -67,7 +67,7 @@
     <div class="about">
       <h2 class="about-h2">О паделе</h2>
       <div class="row">
-        <div class="col-md-4 about-block" style="margin-top: auto">
+        <div class="col-4 about-block" style="margin-top: auto">
           <img src="./img/easystart.png" alt="" class="about-img" />
           <h4 class="about-h4">Легко начать</h4>
           <div class="about-text">
@@ -76,7 +76,7 @@
             и азартом.
           </div>
         </div>
-        <div class="col-md-4 about-block" style="margin-bottom: 142px">
+        <div class="col-4 about-block" style="margin-bottom: 142px">
           <img src="./img/age.png" alt="" class="about-img" />
           <h4 class="about-h4">Игра для любых возрастов</h4>
           <div class="about-text">
@@ -85,7 +85,7 @@
             до взрослых.
           </div>
         </div>
-        <div class="col-md-4 about-block" style="margin-top: auto">
+        <div class="col-4 about-block" style="margin-top: auto">
           <img src="./img/teamspirit.png" alt="" class="about-img" />
           <h4 class="about-h4">Командный дух</h4>
           <div class="about-text">
@@ -107,10 +107,77 @@
       </div>
     </div>
     <!-- Блок О Линия -->
-    <img src="./img/line.png" alt="" class="row m-0" />
+    <img src="./img/line.png" alt="" class="container-fluid banner-img" />
     <!-- Блок Услуги с каруселькой -->
+    <div class="services">
+      <h2 class="services-h2">Услуги</h2>
+      <div
+        class="services-carusel row align-items-center justify-content-between"
+      >
+        <img src="./img/arrow.png" alt="Назад" class="arrow left col-1" />
+        <div class="services-card col-11">
+          <h3 class="card-title">Аренда кортов</h3>
+          <div class="card-item d-flex">
+            <img src="./img/rent.png" alt="Аренда кортов" class="card-img" />
+            <div
+              class="card-left d-flex flex-column align-items-center justify-content-between"
+            >
+              <div class="card-text">
+                Погрузитесь в игру на наших современных падл-кортах! Мы
+                предлагаем комфортные условия для игры в любое время — будь то
+                дружеский матч или турнир. Онлайн-бронирование, освещение и
+                качественное покрытие уже ждут вас.
+              </div>
+              <button class="card-button">Забронировать</button>
+            </div>
+          </div>
+        </div>
+        <img src="./img/arrow.png" alt="Вперед" class="arrow right col-1" />
+      </div>
+    </div>
     <!-- Блок Где находимся -->
+    <div class="where">
+      <h2 class="where-h2">Где мы находимся</h2>
+      <div style="position: relative; overflow: hidden">
+        ><iframe
+          src="https://yandex.ru/map-widget/v1/?ll=50.118042%2C53.208107&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1NzM3MDg5MhJB0KDQvtGB0YHQuNGPLCDQodCw0LzQsNGA0LAsINCS0L7Qu9C20YHQutC40Lkg0L_RgNC-0YHQv9C10LrRgiwgMzYiCg0pdUhCFTDVVEI%2C&z=16.65"
+          width="100%"
+          height="524"
+          frameborder="0"
+          allowfullscreen="true"
+          style="position: relative"
+        ></iframe>
+        <div class="where-text">
+          К вашим услугам — комфортабельные раздевалки <br />
+          от «Чайхоны» и современные душевые
+        </div>
+        <div class="where-photo d-flex justify-content-around">
+          <img src="./img/tea1.png" alt="" class="where-img" />
+          <img src="./img/tea2.png" alt="" class="where-img" />
+        </div>
+      </div>
+    </div>
     <!-- Блок Каталог -->
+    <div class="catalog">
+      <h2 class="catalog-h2">Каталог</h2>
+      <div class="cat-cards d-flex justify-content-around align-items-end">
+        <div class="cat-card d-flex flex-column align-items-center">
+          <div class="cat-card-title text-center">Мячи</div>
+          <img src="./img/balls.png" alt="" class="cat-card-img" />
+        </div>
+        <div class="cat-card d-flex flex-column align-items-center">
+          <div class="cat-card-title text-center">Ракетки</div>
+          <img src="./img/rakets.png" alt="" class="cat-card-img" />
+        </div>
+        <div class="cat-card d-flex flex-column align-items-center">
+          <div class="cat-card-title text-center">
+            Спортивные <br />
+            бутылки
+          </div>
+          <img src="./img/bottles.png" alt="" class="cat-card-img" />
+        </div>
+      </div>
+    </div>
     <!-- Блок Подвал -->
 
     <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
