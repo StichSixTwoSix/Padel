@@ -223,3 +223,18 @@ a {
   width: 440px;
   height: 440px;
 }
+
+.footer {
+  background: #c9f51a;
+  padding: 90px;
+  font-size: 32px;
+}
+
+.adress {
+  margin: 50px 0;
+  font-size: 28px;
+}
+
+.footer-right {
+  display: inline-flex;
+}
