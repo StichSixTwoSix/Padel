@@ -10,6 +10,7 @@ body {
 
 a {
   color: #000000;
+  text-decoration: none;
 }
 
 .semibold {
@@ -164,7 +165,7 @@ a {
   font-weight: semibold;
   font-size: 40px;
   line-height: 1;
-  margin: 0 60px;
+  margin-left: 60px;
 }
 
 .card-button {
@@ -174,6 +175,7 @@ a {
   background: #2755ee;
   border: none;
   color: #ffffff;
+  margin-left: 60px;
 }
 
 .where-h2 {
@@ -228,6 +230,10 @@ a {
   background: #c9f51a;
   padding: 90px;
   font-size: 32px;
+}
+
+.mail {
+  margin-right: 34px;
 }
 
 .adress {
